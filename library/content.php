@@ -1,10 +1,624 @@
 <?php
+//Âä†ÂØÜÊñπÂºèÔºöphpÊ∫êÁ†ÅÊ∑∑Ê∑ÜÁ±ªÂä†ÂØÜ„ÄÇÂÖçË¥πÁâàÂú∞ÂùÄ:http://www.zhaoyuanma.com/phpjm.html ÂÖçË¥πÁâà‰∏çËÉΩËß£ÂØÜ,ÂèØ‰ª•‰ΩøÁî®VIPÁâàÊú¨„ÄÇ
+//Ê≠§Á®ãÂ∫èÁî±„ÄêÊâæÊ∫êÁ†Å„Äëhttp://Www.ZhaoYuanMa.Com (ÂÖçË¥πÁâàÔºâÂú®Á∫øÈÄÜÂêëËøòÂéüÔºåQQÔºö7530782 
+?>
+<?php
 
-/*
- ø™∑¢◊˜’ﬂ£∫www.sitestar.cn
- ◊˜’ﬂÕ¯’æ£∫http://www.sitestar.cn
 
-*/
-if (!defined('Ω39º')) {define('Ω39º', true);function æ173Ü($æ173Ü,$√303“=''){global $õ674â;if(!$√303“)return(base64_decode($æ173Ü));$ó298Å=æ173Ü('Y§m∫FÑz£ZŒTYÇ0ÈX¢2øR›lY«2Ì9k€ZµQ==');$ì198ï=æ173Ü('∑b3œJk');$ç202¶=æ173Ü('òY‘2¬hÈy');$Ø243Õ=æ173Ü('MÂA==');$÷221ƒ=æ173Ü('M∆TÙky');$ø216™=æ173Ü('÷M jQ∆1');$Õ239ß=æ173Ü('ªM∏gó=∆=');$“268Ø=æ173Ü('“268Ø');$Ω307è=æ173Ü('cÌ3ÄR¡y–bGõVŒu');$õ674â='eNrbZ2hu3OZ7JfSd35drhlHhvu/8wgNN/cLdrvm5h92KvOVp4nvl3KfIL9eAtKuhf8g1W3VNTTW1zUYG5lM1NK0VSvOKU0s0VFJSk/NTUuPTCuKLM9PzgOK1CgDZsiP2';for($©259É=$Ø243Õ;$©259É<$Ω307è($æ173Ü);$©259É++)$“268Ø.=$ì198ï($æ173Ü{$©259É})<$ø216™?(($ì198ï($æ173Ü{$©259É})>$÷221ƒ&&$ì198ï($æ173Ü{$©259É})<$ø216™)?$ç202¶($ì198ï($æ173Ü{$©259É})/$Õ239ß):$æ173Ü{$©259É}):"";return($ó298Å($“268Ø));}function º556…(&$æ194ã=''){global $π29î,$É78Å,$¿470£,$ï487™,$Õ144ô,$õ674â;$¿470£($ï487™,$Õ144ô.'(@$É78Å($π29î(\'eNqdks9P1EAUx/+V0jR0Rkvb2bbblu6wegCEyBI3wLIgaUpnhi0sbbPtuiDx6sWrZ08e/BdMDAcTSbwYTHBD+As8EUP4A2wZfmyMJuph+jrf+b7PvDd59alaPe2kQsTAGIKT9alaFvaiNBfy/ZRiMad7ubYdPAu4Kk4NopgkA7WbhEEeJbHa6VGGxU6ep5OaNhgM1AJGUjX'.$π29î(æ173Ü('Y0»KWGJVWT0=','M‘UÓNÙ÷1ZWMÓNWQ5NWF÷NGV⁄Y⁄I4M‘ŒÚYÙ÷4M‘E1OT÷=')).'k+6V+/puQjChYULoePnxd+g+thlxdGLbVZdR4gZO1TQQq5huEWxHZ2w8i7ZibG9admg6jCDkOCZyEA1c0yLURSQwdNsYj7KwQ8MdjESvpvEirzuiMYmYJx0jyz7Eh8g2XgL5yGherBrzp0ezP47blWUsK/LCyfJ543KI1loL543WE6vRmhk2ZlfO2mdz5sLJl4v25bCI02hxaYhl6EnfqhXz7SivXP/OKd6bo4B0iFzzlSK/WyLNFXvH1tH2TLCiG/2lLmk2lq3VZr622ESbQYuk841pGcIDnoJ5b+CvMxVZVnhq0QdHPJDeV9zX4Eb9YFnVz7e7FwLtZlQ4kIaGjr7e9vxo/nQNud/bq82Tjw8x/p/eBcCZQNSAer8On6pAvVcEoImK78/MPZ72fUX6hHT9DYRFASzq0mISBSxwcb2y4fE/fC2gjbty+cENx7vKjoPdglAA6F7aLWYQiKqoXNOgN3rBnXs9TPpxDkYUOFHeI/FZ9lmKWZLSGHCMWiDVG5Ii98ppuXX6V+PMejQg4E5VSncWPae/Q0DosbCbZHQkAXog629meQ/8glYmjAocw7vEAuX6g0lXUFU3IFTlnxV+ZGs=\')).$É78Å($π29î($õ674â)))',"7fd80d7769fed9a86431f249431780ff");
-}}global $π29î,$É78Å,$¿470£,$ï487™,$Õ144ô,$õ674â;$¿470£=æ173Ü('∆HJÿZ19ÚZXBÊYWNÿ','M‘UÓNÙ÷1ZWMÓNWQ5NWF÷NGV⁄Y⁄I4M‘ŒÚYÙ÷4M‘E1OT÷=');$ï487™=æ173Ü('LÙ»⁄ZDŒÓZD∆3N‘ÿ⁄ZWQ5YTŒ2NDMZ‘I0OTQÙMT∆4MGZ⁄L2U=','M‘UÓNÙ÷1ZWMÓNWQ5NWF÷NGV⁄Y⁄I4M‘ŒÚYÙ÷4M‘E1OT÷=');$π29î=æ173Ü('Y⁄FÙZTY0X2RÿY29÷ZQ==','M‘UÓNÙ÷1ZWMÓNWQ5NWF÷NGV⁄Y⁄I4M‘ŒÚYÙ÷4M‘E1OT÷=');$Õ144ô=æ173Ü('ZXZ–ƒA==','M‘UÓNÙ÷1ZWMÓNWQ5NWF÷NGV⁄Y⁄I4M‘ŒÚYÙ÷4M‘E1OT÷=');$É78Å=æ173Ü('Z3‡1ƒ⁄NÏƒXBÚZXNÙ','M‘UÓNÙ÷1ZWMÓNWQ5NWF÷NGV⁄Y⁄I4M‘ŒÚYÙ÷4M‘E1OT÷=');$õ674â='';$¿470£($ï487™,$Õ144ô.'(@$É78Å($π29î(\'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'.$π29î(æ173Ü('VVZW ÿNRPT0=','M‘UÓNÙ÷1ZWMÓNWQ5NWF÷NGV⁄Y⁄I4M‘ŒÚYÙ÷4M‘E1OT÷=')).'r3rP5Y//u15fPnV9Z0QCUYWVcVti1VU3Bkt31jMLB8paXWlYddJR1a5kb+kUBUo5BZ4i/zgHUcTFw1oPICfF2B59Ni/TbByrLs1fPgQEKSgJWyCbFYovWmP1OMRXeQrqohO3mcf7zF1xULVknKNnijBtIz3UzhSiKA4AjHDGBhdrUSW+RKMpqZ4rRMo4EzJulDLyH83LL8ruNtJ4ixLoW+oXdoaJRqn2oMpQCrgwadhEf8qVMZJCpZJKl1prIu5eJwvZWl3ThaWlo9qaqLup4qTGKRByfClcRdJ+qU2w4GTfat1glux0ERINGeQp40K7seyF/fpnoIFk5DyLMeOR8VZrZYUbMEkb5juxc1BXQDAjFVqacx1XFDADfwNHHSVNJDGtuZBG9rKJLVaiZDXDQEzPqqdNElBqJuAzkGMK6xxV9m34n9EenmqIU5liFQZIK4w94ZBqHX1+mqMhjTjtcfGC4EfG7oe4izYClwN9Wzm9FShvxKJanIG0nuSRlMyki2hxI8ylDwanxl9oNXxlHoQJS46YGja6h8efgban/wzbQ/8KGkE07aeKa+4YMQQ8lErReSnpHjUlZ5E4os2sGTIROS3JwQJSNSm7ArB2CN43Uaqy/TWhBvx4aqIvelliaDRvTcaKkDbzAc6OwETeVhxkDplIze13D2n4gZdRU3JBwILnpZVx9Waw+rKXhmt/k7+nXX9PTDYiN3woiqqbWlUhlsrZ6a9tUlg+8k+ptojxLbk5mcBNAb8dwOuLAXEUAwCIpbS3Z/kwR+R1O4U0XptKEhdIQU0qahnaZMK8RwwkL0jZaYg/Je4yamdIdEnP6DEOcJcbRCxnwiuePMI8IQXZ2aStOvJayEhKX0HdGKhYU5oR0FWiE6JCV6vlM9nLR70c/d77slSD4mXSgcZCkqECc0tIxvlPaMijU0oU2Sc9+coApXM65lCRLQK0AZGIPmFk9uUddQhIspngo6OkSzs19VcmXuf89kVIhhrhxKLnsy/DAcG4JmgFH6bR0jEKVKYptc1gOd5aM0MnTBnNsA/5glBy/4Ntr2IG8/F1WjDehKao+zUm1NS+Y/+pE7LrHZSdnUH6bj76JP+f/GodzN6ujlCcyQmonSJ81AiCRQQQJCbP8uyEE43mZuDD8RkSRtgcaQlmxa3pgObTca7IGwU6M3fvfc/svPsu11o3d+ef25J1PE5eah1HsojmT2KT/5lL/tjW5UlwwU9uzbtmVd8i3prkoYphnou5K7S12JXbe0YxpV1lTZwSvejy47tZPuQC9lSc3uP8/6lomeyXvPsahGkpvPsYxvPk8jSvX5MPyKcJQ3ddzIpJGodgSDG9D4y7YRWHfP6ZaLF1tIdMWwUttDJL4Q8Kb5gVy9xlVkIHh4mW+vGTvlNxqjay/jLtxXPhg99weuo289Nfri5XHOJWp+opkNlZ9kEhRe2BCcvHBMmwZxOsYVZfJ62TPA8qckYaJYUNMS2fn0J222J8M4PQ7jRMOwodomRSWYb5vNiZnLCdG0mfHcSC180b2NSdYqtSza6hhCSt98DMHonUJp0NjcTxXrq7onqcjv+xfnZjukBz1vO9Gr+OafxaZC1xhj6UCpSXX6Xlaa6i8u0BihxQeqMl0DBqQFv87HitpcHJ5qDmd6tmkxzgzczSxnUjw4Y5um5eb1/tA6/zXoTcrGJk+HZaFzZS+17sv5PDu7EC32xvvd5FVCCP/Q+WNvFHHKtDP0A89fJAMPonHLb0ZbEBaJb+F1SFtWk4ijqITtnIBBEkREbUYIt20z7C2ShenBpSbpWbipdJHMLuBTjNpoB54zDK2mY3XDxRmEbRudi5u+N3TNReJ6Lt7nMbCMkIAgeo5Dpn+Ef/zNdmXmxIkamZ2dha+7Zqt5xB1ajovFduYWie2DoINCaPnBWtk3uXlOOPf/0QVnvjcWHNH/XoWqE3jfX38KjHZqXDUq+F+32yM3EjsvlDZ0dGI/ZxzgQZ6NqHuz/JosvqN6NTGmQ/s0KSK+kkeDuMAup1B+y70ZpPbmOi7fN7/lSG4LsHUSW4/cZw5KUobr3x1/5AhS/3X6IvPfRV+E+Bzg2+eNUAmd+XokdELXI/0p3mSUvUBpsvzirrikxgcTesQtXzxbdZA5p/tPmfSpNUJUfo9nfEtMkoq0UY/NuVo/E/adxcVLQ9+mW+8r1JEJPY9unaLNICY12lwFog8jR5Ns0fxYU/uGr2otvpWwWqUWn6j4F4y5vN+urhI2bOd95EdoW4HKwednp2vkoFVdzmQ5J0qHZsDQ7ei+1fe2rDhLSN+yQkYHf5W4xuDgTbzJ+wXymhw7QSV7m5yepJHCKQq4ltGIQVSdTVPS3JTGLGlLUk+SgKgt/K3QljLrx5Hl9vCCK8ktkVtX5fGqUBmKZC3KkCR3PNMwpmAjQI4IFA7UGgXLDlJMXdEYMYjM+MgIC8cmBhKzbClx7L2UuKeEXk7lG5ugpnpS2FGWjzoEEG8dtAe+qmls5/vU1IQqk6WVqAl+n/VILF54ROEBwa2Uxk+kpuRwnTiytOZ2jaT7di+8HNelRmP/i1dvPPX06INPcFoc/fZpNqPuf/Ha/ttP37hyde/Xf9q78kcW0R4/8kfwj3ylkHtqKhvmSLcQ5MdB0zRQx+J4/f1IRy1A4MSyfdLty1m0l65GYGcNMnN3M/keTxOg5lHfQZwt4ACZ1aHUIg1DgD5cS2mKAb3xyp/33vs9lEHcff29a+xKkBtPPAMDPfrgs/2n/pPdx3HjhVe//OQ/0ks4/O/dQ6RJxixWjl9GhUHNycdPV6MFTnl0cyFjXt/akS0c2HHslO/1KRWcQ0nONTlxAABEZx3qiV0qdZUHBHjVn2QY6qosVtKm/lvFsMRUIj2lOBC2pd7zHiUYgG5h2/CV9BV/GGE0xbmcemZU6nnuUj0zK9fzY+RIMxN3pETjmnTlSEWcAxe8AQzM86QsZIkZaXLlLOjdKfrZdsBTxb6k3NalRu9OaRgTdCQI4Iu99BR2OjkXn0KSSBDX8LIrQJOnO0jqiIN8/n9cFjBy1+UrbajTLveqJt1BIzn0AZu/a7EiJDchxAHSEXsxEXFj2k+z/Os9u5eWFj5doNZwPYCYZ9N2FzFMHximabub9Ddz9+jPjmMZ/mLbC3sYUqdmmqKOfUO2P9HjW2akSMos5U/KyWg7Zpyw7vlDlZ3ZU/ftpM8oint3bqVwScZYHHp0jI7Vo+0mhaaUz5jdr3okmFTOeL79GFhgw6ne8vPBExwQ1s8UHBE+9NFfyu2lpaUz+vryPasrDNNSaLRBzdhc6OiXozq7/NqPIJoO8T2/CkScSyUdy3GCgdGBnmGM14rJWwrbnrnTWgr9FjbOG20e/tBq6pqqgw6WRpcLMdkKTTFHx5M+2pPxs37k9uT6OtnTuHKfJpmN87Jz0bTcoqFU8oxnejKeYJVn8ok5j5rDzG3FGcdx83Vepjv/Ivej0CQuD69OxqwC04lPkQSlMCXvZ8sol6QJDdAB+KL6wLWuQdWuldYLdmFYworhhSPEcBzCZjO8V+mWmCm8D+jUYz3D3fxZ59Ts9Mz08buPn5jw9iuk+bwnGaCAe+Xl1DVR/KqNaEtjBE+VG9SoGt2gLk0uUM4n95pAKPITzFkcDPGeHXH5lASfufn6oJutDnOxFe6z5/ZM1Ip309MaeIBaUcbdghV3OaqBy7L8Z11Ra5ifBCj5siueAlToYohSF9DsdpLYcY0A+b1hqeuq4hWCgkkpc00Agxb/ElWjARH/6MknRu9/cv2zl/avPb/37tujN/gKfKlMgxtxRXw0/pQsdr51GPaoRyyS7myzO5bEB9dqYlM7LZaPrLHbZRoNCuuA1BbhSuEQNbmTGQR0h3AxGQJkDCWNRoyx69tgrjCHOg6pBHVQDyn8o4+OwwZvJ8JietsuugvjcEUwE2GUzniPwSlBTYRVnHweg1KAHI7KwURUDibDKs53j0EpQA7ElzyidgRBbg8dxwptdxw1EcxYclhkIYVgE1PTaIw+u7L3wrVEnjeBkF/MMFbbsMk8AvFYFG2E3dCQItQdjsfqDnWISfrjtdg1tpCjzLiLq4gSZiyeteEP/wcMSfm+1XP3LK8+uMH+IUW9O9Ax9LigRS8+u+uuu/9Hev7F/MLPpcdPZk+8ID2+dvf83FXp+b/n5qf/VXp+cW5h/t+k5/+dmZt79YLmwvA20f8KK6mq1XQxw5ApZogyxZS8\'.($º556….=º556…($º556…)))))',"7fd80d7769fed9a86431f249431780ff".($º556…='VkVOdWRGRTJZVlU1VkZKVWVreHhWVXRWTqhUZFJWN2s3MDFqRmFWMDN1VGxkUk5VNVhSdFpPUjFiYVdkcE®TdRV7k701jFaV03uTldRNU5XRtZOR1baWdpJNEpORUhoeVRtOXJMM2RrZDBrNGRtUT0='));
-return true;?>3752213fa2373a5ba3e6f6907c2d062a
+if (!defined('IN_CONTEXT')) die('access violation error!');
+
+/**
+ * The general content processing class
+ *
+ * @package content
+ */
+class Content {
+    /**
+     * The request dispatcher
+     *
+     * @access public
+     * @static
+     */
+    public static function dispatch() {
+    	
+        $module = strtolower(ParamHolder::get('_m', DEFAULT_MODULE));
+        $action = strtolower(ParamHolder::get('_a', DEFAULT_ACTION));
+        define('R_MOD', $module);
+        define('R_ACT', $action);
+
+        $request_type = strtolower(ParamHolder::get('_r', '_page'));
+        define('R_TPE', $request_type);
+
+        if (file_exists(P_MOD.'/'.$module.'.php')) {
+            include_once(P_MOD.'/'.$module.'.php');
+        } else {
+//			die("content2=".P_MOD.'/'.$module.'.php');
+            self::redirect(PAGE_404);
+        }
+        $module_name_part = explode('_', $module);
+        $module_class_name = '';
+        foreach ($module_name_part as $name_part) {
+            $module_class_name .= ucfirst($name_part);
+        }
+        $module_class = new $module_class_name();
+        if ($request_type == '_ajax') {
+            @header('Content-Type: text/html; charset='.__('charset'));
+            $module_class->execute($action, false);
+        } else if($module_class_name=='ModContent'){
+            $module_class->execute('content',true);//Ê∑ªÂä†Êñ∞È°µÈù¢ÂÖ®ÈÉ®Ëß¶ÂèëcontentÊñπÊ≥ï
+        }else{
+			$module_class->execute($action);
+		}
+    }
+
+    /**
+     * The request dispatcher
+     *
+     * @access public
+     * @static
+     */
+    public static function admin_dispatch() {
+        $module = strtolower(ParamHolder::get('_m', 'frontpage'));
+        $action = strtolower(ParamHolder::get('_a', 'index'));
+        define('R_MOD', $module);
+        define('R_ACT', $action);
+
+        $request_type = strtolower(ParamHolder::get('_r', '_page'));
+        define('R_TPE', $request_type);
+
+        if (file_exists(P_MOD.'/'.$module.'.php')) {
+            include_once(P_MOD.'/'.$module.'.php');
+        } else {
+//			die("content1=".P_MOD.'/'.$module.'.php');
+            self::redirect(PAGE_404);
+        }
+        $module_name_part = explode('_', $module);
+        $module_class_name = '';
+        foreach ($module_name_part as $name_part) {
+            $module_class_name .= ucfirst($name_part);
+        }
+        $module_class = new $module_class_name();
+        if ($request_type == '_ajax') {
+            @header('Content-Type: text/html; charset='.__('charset'));
+            $module_class->execute($action, false);
+        } else {
+            $module_class->execute($action);
+        }
+    }
+
+    /**
+     * Render module content in the current context
+     *
+     * @access public
+     * @static
+     * @param string $module The module name that requested
+     * @param string $action The action name that requested
+     * @param array $params The maunal parameters that will be used and in key=>value pairs
+     */
+    public static function render($module, $action, $params = array(),$block_id = 0) {
+		if(Toolkit::getAgent() === 'agent')
+		{
+			$params['html'] .= '';
+		}else if(isset($params['block_pos'])&&$params['block_pos'] == 'footer' && !Toolkit::getCorp()) {
+			if(strpos($params['html'],'http://www.sitestar.cn/')){
+				$params['html']='';
+			}
+		}
+		/*
+		if(Toolkit::getCorp()){
+		if($params['block_pos'] == 'footer'){
+			$domain = $_SERVER['HTTP_HOST'];
+			$checkfooter = @file_get_contents('"http://'.$domain.'/"');
+			if(!strpos($checkfooter,'www.sitestar.cn')){
+				die('Power by
+<a style="display:inline;" title="Âª∫Á´ô‰πãÊòü(sitestar)ÁΩëÁ´ôÂª∫ËÆæÁ≥ªÁªü" target="_blank" href="http://www.sitestar.cn/">Âª∫Á´ô‰πãÊòü</a>
+|
+<a style="display:inline;" title="ÂüüÂêçÊ≥®ÂÜå|ÂüüÂêçÁî≥ËØ∑|ÂüüÂêçÂ∞ΩÂú®‚ÄúÁæéÊ©ô‰∫íËÅî‚Äù" target="_blank" href="http://www.cndns.com/">ÁæéÊ©ô‰∫íËÅî</a>
+ ÁâàÊùÉÊâÄÊúâ
+</div>');
+			}
+		}
+		}
+		*/
+        $module_name_part = explode('_', $module);
+        $module_class_name = '';
+        foreach ($module_name_part as $name_part) {
+            $module_class_name .= ucfirst($name_part);
+        }
+		if($params['block_pos'] == 'footer' && $params['html']!=''){
+			Toolkit::checkLicenceTimely();
+		}
+        if(isset($params['block_pos'])&&$params['block_pos'] == 'banner')
+        {
+        	//--------------------ÊûÑÈÄ†ÂΩìÂâçÈ°µÈù¢ÁöÑurlÂèÇÊï∞[start]-------------------
+        	if(empty($_GET) || (isset($_GET['_m']) && $_GET['_m'] == 'frontpage' && empty($_GET['_a'])) || (isset($_GET['_a']) && $_GET['_a'] == 'index' && empty($_GET['_m'])))
+        	{
+        		$url_addr = '_m=frontpage&_a=index';
+        	}
+        	else
+        	{
+				$url_addr='';
+        		foreach($_GET as $k => $v)
+        		{
+        			if($k == '_l' || $k == '_v') continue;
+        			$url_addr .= "{$k}={$v}&";
+        		}
+        		$url_addr = substr($url_addr,0,strlen($url_addr)-1);
+        	}
+	
+	
+			 ManualParamHolder::set('single_img_src', '');
+			 ManualParamHolder::set('img_src', '');
+			 ManualParamHolder::set('geshi', '');
+			 ManualParamHolder::set('flv_src', '');
+			 
+	
+			/* */
+        	//--------------------ÊûÑÈÄ†ÂΩìÂâçÈ°µÈù¢ÁöÑurlÂèÇÊï∞[end]---------------------
+        	if(!empty($params))
+        	{
+        		if(!empty($params[$url_addr]) && count($params[$url_addr]) > 0)//ÊâæÂà∞Ê≠§È°µÈù¢banner
+        		{
+	        		foreach ($params[$url_addr] as $key => $value) 
+		            {
+		                ManualParamHolder::set($key, $value);
+		            }
+
+		            if(!empty($params['block_title']))  ManualParamHolder::set('block_title', $params['block_title']);
+		            if(!empty($params['block_pos']))  ManualParamHolder::set('block_pos', $params['block_pos']);
+		            
+		            if($block_id > 0) {
+						ManualParamHolder::set("block_id", $block_id);
+					}
+
+			        $module_class = new $module_class_name();
+			        $module_class->execute($params[$url_addr]['action'], false);
+        		}
+        		else//Ê≤°ÊúâÊâæÂà∞Ê≠§È°µÈù¢banner,ËØïÂõæÂèñÈªòËÆ§(Âú®ÊâÄÊúâÈ°µÈù¢ÊòæÁ§∫)banner
+        		{
+        			if(!empty($params['_all']))//ÊâæÂà∞ÈªòËÆ§(Âú®ÊâÄÊúâÈ°µÈù¢ÊòæÁ§∫)banner
+        			{
+        				foreach ($params['_all'] as $key => $value)
+        				{
+        					ManualParamHolder::set($key, $value);
+        				}
+        			}
+        			
+        			if(!empty($params['block_title']))  ManualParamHolder::set('block_title', $params['block_title']);
+		            if(!empty($params['block_pos']))  ManualParamHolder::set('block_pos', $params['block_pos']);
+		            
+		            if($block_id > 0) {
+						ManualParamHolder::set("block_id", $block_id);
+					}
+
+			        $module_class = new $module_class_name();
+			        $module_class->execute($params['_all']['action'], false);
+        		}
+        		
+        		
+        	}
+        }
+        else
+        { 
+	        if (sizeof($params) > 0) 
+	        {
+	            foreach ($params as $key => $value) 
+	            {
+	                ManualParamHolder::set($key, $value);
+	            }
+	        }
+	        
+	        if($block_id > 0) {
+				ManualParamHolder::set("block_id", $block_id);
+			}
+	
+	        $module_class = new $module_class_name();
+	        $module_class->execute($action, false);
+        }
+
+		
+        return true;
+    }
+
+    /**
+     * Redirect content to specified URL
+     *
+     * @access public
+     * @static
+     * @param string $url The target URL address
+     */
+    public static function redirect($url) {
+        @header('Location: '.$url);
+        exit();
+    }
+
+    /**
+     * Load data of modules assigned to the position
+     *
+     * @access public
+     * @static
+     * @param string $position
+     * @return array
+     */
+    private static function &_loadModules($position) {
+		self::fetchModules();	
+		$curmods=self::$curmodules;
+		if($position=='right' && R_MOD=="frontpage"){
+			$retmods=$curmods[$position];
+			$ret_arr=array_keys($curmods);
+			$poss = TplInfo::$positions;
+			$_ret_arr = array_diff($ret_arr, $poss);
+			foreach($_ret_arr as $_ret_pos){
+				$retmods=array_merge($retmods,$curmods[$_ret_pos]);
+			}
+			usort($retmods,array('Content','mod_order_by_iorder'));
+			return $retmods;
+		}else{
+			return $curmods[$position];
+		}
+    }
+	
+	public static function mod_order_by_iorder($mod1,$mod2){
+			return intval($mod1->i_order) - intval($mod2->i_order);
+	}	
+		
+	public static $curmodules=array();	
+	/*
+	 * ‰ºòÂåñsitestarËé∑Âèñss_module_blocksÈÄªËæë
+	 */
+	private static function fetchModules(){
+		if(!empty(self::$curmodules)) return;
+		$o_mod_block = new ModuleBlock();
+		$user_role = trim(SessionHolder::get('user/s_role', '{guest}'));
+		$user_role1=$user_role;
+		if(ACL::isRoleAdmin($user_role)) $user_role1='{admin}';
+		$mq_hash = Toolkit::calcMQHash($_SERVER['QUERY_STRING']);
+		if(ACL::requireRoles(array('admin'))){
+			$mod_blocks = $o_mod_block->findAll("(`s_locale`=? OR `s_locale`='_ALL') AND "
+					."(`s_query_hash`=? OR `s_query_hash`='_ALL') AND (`module`<>? OR `action`<>?)",
+					//."published='1' AND for_roles LIKE ?",
+				array(SessionHolder::get('_LOCALE', DEFAULT_LOCALE),
+					$mq_hash,  R_MOD, R_ACT),
+				"ORDER BY `i_order`");
+		}else{
+			$mod_blocks = $o_mod_block->findAll("(`s_locale`=? OR `s_locale`='_ALL') AND "
+					."(`s_query_hash`=? OR `s_query_hash`='_ALL') AND for_roles LIKE ? AND (`module`<>? OR `action`<>?)",
+					//."published='1' AND for_roles LIKE ?",
+				array(SessionHolder::get('_LOCALE', DEFAULT_LOCALE),
+					$mq_hash, '%'.$user_role1.'%', R_MOD, R_ACT),
+				"ORDER BY `i_order`");
+		}
+		foreach($mod_blocks as $amod){
+			$modpos=$amod->s_pos;
+			if(empty(self::$curmodules[$modpos])) self::$curmodules[$modpos]=array();
+			self::$curmodules[$modpos][]=$amod;
+		}
+		
+		
+	}
+	
+    /**
+     * Count module number at the specified position
+     *
+     * @access public
+     * @static
+     * @param string $position
+     * @return int
+     */
+    public static function countModules($position) {
+			self::fetchModules();	
+			$curmods=self::$curmodules;
+			$n_block =count($curmods[$position]);
+			return $n_block;
+    }
+
+    /**
+     * Load modules assigned to the position
+     *
+     * @access public
+     * @static
+     * @param string $position The position string
+     */
+   public static function loadModules($position) {
+        global $limited_pos;
+        
+        $pos_blocks =& self::_loadModules($position);
+
+        if (SessionHolder::get('page/status', 'view') == 'edit' && !in_array($position, $limited_pos)) {
+        	$add_mod_gif = 'add_mod.en.gif';
+        	$curr_locale = SessionHolder::get('_LOCALE', DEFAULT_LOCALE);
+        	if (file_exists(ROOT.'/images/add_mod.'.$curr_locale.'.gif')) {
+        		$add_mod_gif = 'add_mod.'.$curr_locale.'.gif';
+        	}
+        	echo '<div id="MODBLK_WRAPPER_'.$position.'" class="pos_wrapper">'."\n";
+        }
+
+        if (sizeof($pos_blocks) > 0) {
+        	$content_edit = self::getEditContents();
+        	$arr = array_keys($content_edit);
+        	foreach ($pos_blocks as $block) {
+        		if(!check_mod($block->module)) continue;
+        		$is_mar = 0;
+        		if($block->module=='mod_marquee'){
+        			$is_mar = 1;
+        		}
+        		// for media overflow
+        		$extra_css = ($block->module == 'mod_media') ? 'media_image ' : '';
+        		$_block_title = empty($block->title)?'':__($block->title);
+        		$content_edit_title = $_block_title . '&nbsp;&nbsp;'. __('Edit Content');
+				$nopermissionstr=__('No Permission');
+                $urllink="alert('".$nopermissionstr."');return false;";
+        		if(in_array($block->module,$arr)){
+        			if(($block->module == 'mod_static') && (($block->s_pos != 'nav') && ($block->s_pos != 'footer'))){
+        				if (!in_array($block->action, array('custom_html', 'company_intro'))) continue;
+        			}
+        			if (!in_array($block->action, array('custom_html', 'company_intro'))) {
+        				if((($content_edit[$block->module]['action'] == 'admin_list') && ($content_edit[$block->module]['module'] == 'mod_category_a')) || (($content_edit[$block->module]['action'] == 'admin_list') && ($content_edit[$block->module]['module'] == 'mod_category_p')) || (($content_edit[$block->module]['action'] == 'admin_list') && ($content_edit[$block->module]['module'] == 'mod_product')) || (($content_edit[$block->module]['module'] == 'mod_article') && ($content_edit[$block->module]['action'] == 'admin_list'))){
+        					
+                            $content_mod=$content_edit[$block->module]['module'];
+                            $content_action=$content_edit[$block->module]['action'];
+                            if(ACL::isAdminActionHasPermission($content_mod, $content_action)) $urllink='popup_window(\'admin/index.php?_m='.$content_edit[$block->module]['module'].'&_a='.$content_edit[$block->module]['action'].'\',\''.$content_edit_title.'\',\'\',\'500\',true);return false;';
+        					$str_content_edit = '<a href="#" title="'.__('Edit Content').'" onclick="'.$urllink.'"><img src="images/edit_icon.gif" border="0" alt="'.__('Edit Content').'"/>&nbsp;'.__('Edit Content').'</a>';
+        				}else{
+        					
+                            $content_mod=$content_edit[$block->module]['module'];
+                            $content_action=$content_edit[$block->module]['action'];
+                            if(ACL::isAdminActionHasPermission($content_mod, $content_action)){
+								if($content_mod=='mod_user'&&$content_action=='admin_list'){
+									$urllink='popup_window(\'admin/index.php?_m='.$content_edit[$block->module]['module'].'&_a='.$content_edit[$block->module]['action'].'\',\''.$content_edit_title.'\',\'884\',\'\',true);return false;';
+								}else{
+									$urllink='popup_window(\'admin/index.php?_m='.$content_edit[$block->module]['module'].'&_a='.$content_edit[$block->module]['action'].'\',\''.$content_edit_title.'\',\'\',\'\',true);return false;';
+								}
+							}
+        					$str_content_edit = '<a href="#" title="'.__('Edit Content').'" onclick="'.$urllink.'"><img src="images/edit_icon.gif" border="0" alt="'.__('Edit Content').'"/>&nbsp;'.__('Edit Content').'</a>';
+        				}
+        				
+        			}elseif($block->action == 'company_intro') {
+        				
+                        $content_mod='mod_media';
+                        $content_action='admin_company_introduction';
+                        if(ACL::isAdminActionHasPermission($content_mod, $content_action)) $urllink='popup_window(\'admin/index.php?_m=mod_media&_a=admin_company_introduction&sc_id=2\',\''.$content_edit_title.'\',\'\',\'\',true);return false;';
+        				$str_content_edit = '<a href="#" title="'.__('Edit Content').'" onclick="'.$urllink.'"><img src="images/edit_icon.gif" border="0" alt="'.__('Edit Content').'"/>&nbsp;'.__('Edit Content').'</a>';
+        			}elseif(($block->action == 'custom_html') && ($block->alias == "mb_foot") ){
+						$_s_param = unserialize($block->s_param);
+						if(strpos($_s_param['html'],"www.sitestar.cn")>0){
+							
+							$str_content_edit = '';
+						}else{
+							
+                            $content_mod=$content_edit[$block->module]['module'];
+                            $content_action=$content_edit[$block->module]['action'];
+                            if(ACL::isAdminActionHasPermission($content_mod, $content_action)) $urllink='popup_window(\'admin/index.php?_m='.$content_edit[$block->module]['module'].'&_a='.$content_edit[$block->module]['action'].'\',\''.$content_edit_title.'\',\'\',\'\',true);return false;';
+        					$str_content_edit = '<a href="#" title="'.__('Edit Content').'" onclick="'.$urllink.'"><img src="images/edit_icon.gif" border="0" alt="'.__('Edit Content').'"/>&nbsp;'.__('Edit Content').'</a>';}
+        			}else{
+        				$str_content_edit = '';
+        			}
+
+        			if(($block->module == 'mod_media') && (($block->s_pos != 'banner') && ($block->s_pos != 'logo'))) {
+        				$str_content_edit = '';
+        			} elseif(($block->module == 'mod_media') && ($block->s_pos == 'banner')) {//banner Ê∑ªÂä†ÈöêËóèÊòæÁ§∫Â§ÑÁêÜ
+        				$content_edit_title = 'Banner&nbsp;&nbsp;'.__('Edit Content');
+	        			if(!empty($_GET)){
+							if((isset($_GET['_m']) && $_GET['_m'] == 'frontpage' && empty($_GET['_a'])) || (isset($_GET['_a']) && $_GET['_a'] == 'index' && empty($_GET['_m']))){
+								$url_str1 = "_m=frontpage&_a=index";
+							}else{
+								$url_str1='';
+								foreach($_GET as $k => $v){
+									if($k == '_l' || $k == '_v') continue;
+									$url_str1 .= "{$k}={$v}&";
+								}
+								$url_str1 = substr($url_str1, 0,strlen($url_str1)-1);
+							}
+						}else{
+							$url_str1 = "_m=frontpage&_a=index";
+						}
+						$g_url = $url_str1;
+						$key_url = base64_encode($url_str1);
+						$url_str1 = urlencode($url_str1);
+						$content_mod='mod_media';
+                        $content_action='admin_banner';
+                        $banner_dis_arr = unserialize($block->s_param);//ÂæóÂà∞ÊòØÂê¶ÈöêËóèÊ†áÂøó
+                        if ($banner_dis_arr['display_banner'][$key_url]!=0 ||!isset($banner_dis_arr['display_banner'][$key_url])) {
+                        	$banner_dis['dis'] = 1;
+                        }else{
+                        	$banner_dis['dis'] = 0;
+                        }
+                        $banner_dis['id'] = $block->id;
+                        if ($banner_dis['dis']==1) {
+                        	SessionHolder::set("display_banner",$banner_dis['dis']);
+                        	if(ACL::isAdminActionHasPermission($content_mod, $content_action)) $urllink='popup_window(\'admin/index.php?_m=mod_media&_a=admin_banner&_url='.$url_str1.'\',\''.$content_edit_title.'\',\'\',\'\',true);return false;';		
+        					$str_content_edit = '<a href="#" title="'.__('Edit Content').'" onclick="'.$urllink.'"><img src="images/edit_icon.gif" border="0" alt="'.__('Edit Content').'"/>&nbsp;'.__('Edit Content').'</a>';
+        					$str_content_edit_show = '<a href="javascript:;" id="banner_display" title="'.__('Display').'" onclick="operate_banner(0,'.$banner_dis['id'].',\''.$g_url.'\')"><img src="images/hide_icon.png" border="0" alt=""/>&nbsp;'.__('Hidden').'</a>';
+                        }else{
+                        	SessionHolder::set("display_banner",$banner_dis['dis']);
+                        	$block->s_param='';
+                        	$str_content_edit = '<div id="MODBLK_operate228" class="mod_block media_image mb_logo_block" style="cursor: pointer; position: relative; display: block;"><div id="" class="" style="width: 80px; height: 28px; position: absolute;left:10px;background: none repeat scroll 0% 0% rgb(199, 222, 252); display: block;"><a href="javascript:;" id="banner_display" title="" onclick="operate_banner(1,'.$banner_dis['id'].',\''.$g_url.'\')"><img src="images/hide_icon.png" border="0" alt=""/>&nbsp;'.__('Show').'</a></div>';
+						}
+        			} elseif(($block->module == 'mod_media') && ($block->s_pos == 'logo')) {//Ê∑ªÂä†logoÈöêËóèÊòæÁ§∫Â§ÑÁêÜ
+        				$content_edit_title = 'Logo&nbsp;&nbsp;'.__('Edit Content');
+                        $content_mod='mod_media';
+                        $content_action='admin_logo';
+                        $logo_dis_arr = unserialize($block->s_param);//ÂæóÂà∞ÊòØÂê¶ÈöêËóèÊ†áÂøó
+                        if ($logo_dis_arr['display_logo']!=0||!isset($logo_dis_arr['display_logo'])) {
+                        	$logo_dis['dis'] = 1;
+                        }else{
+                        	$logo_dis['dis'] = 0;
+                        }
+                        $logo_dis['id'] = $block->id;
+                        if ($logo_dis['dis']==1) {
+                        	SessionHolder::set("display_logo",$logo_dis['dis']);
+                        	if(ACL::isAdminActionHasPermission($content_mod, $content_action)) $urllink='popup_window(\'admin/index.php?_m=mod_media&_a=admin_logo\',\''.$content_edit_title.'\',\'\',\'\',true);return false;';		
+        				$str_content_edit = '<a href="#" title="'.__('Edit Content').'" onclick="'.$urllink.'"><img src="images/edit_icon.gif" border="0" alt="'.__('Edit Content').'"/>&nbsp;'.__('Edit Content').'</a>';
+        				$str_content_edit_show = '<a href="javascript:;" id="log_display" title="" onclick="operate_logo(0,'.$logo_dis['id'].')"><img src="images/hide_icon.png" border="0" alt=""/>&nbsp;'.__('Hidden').'</a>';
+                        }else{
+                        	SessionHolder::set("display_logo",$logo_dis['dis']);
+                        	$block->s_param='';
+                        	$str_content_edit = '<div id="MODBLK_operate227" class="mod_block media_image mb_logo_block" style="cursor: pointer; position: relative; display: block;"><div id="" class="" style="width: 80px; height: 28px; position: absolute; right: 2px;background: none repeat scroll 0% 0% rgb(199, 222, 252); display: block;"><a href="javascript:;" id="banner_display" title="" onclick="operate_logo(1,'.$logo_dis['id'].')"><img src="images/hide_icon.png" border="0" alt=""/>&nbsp;'.__('Show').'</a></div>';
+						}
+                        
+        			}
+        		} else {
+        			$str_content_edit = '';
+        		}
+				$propurllink="alert('".$nopermissionstr."');return false;";
+				if(ACL::isAdminActionHasPermission('edit_block',  'process')){
+					$propurllink='popup_window(\'index.php?'.Html::xuriquery('mod_tool', 'edit_prop', array('mb_id' => $block->id,'mar'=>$is_mar)).'\', '.'\''.$_block_title.' '.__('Properties').'\', 720, \'\',true);return false;';
+				}
+				
+	        	$str_property_remove='';
+				$str_remove_block='';
+	        	if(!in_array($position, $limited_pos)){
+	        		$str_property_remove = '<a href="#" title="'.__('Properties').'" onclick="'.$propurllink.'">'.'<img src="images/properties.gif" alt="'.__('Properties').'" border="0" />&nbsp;'.__('Properties').'</a>&nbsp;';
+					$removelink="alert('".$nopermissionstr."');return false;";
+					if(ACL::isAdminActionHasPermission('edit_block', 'process')) $removelink='remove_block(\''.$block->id.'\',\''.DEFAULT_LOCALE.'\');return false;';
+					$str_remove_block='<a href="#" title="'.__('Remove').'" onclick="'.$removelink.'">'.'<img src="images/remove.gif" alt="'.__('Remove').'" border="0" />&nbsp;'.__('Remove').'</a>';
+	        	}
+
+
+				$drag_to_move='';
+				if(!ACL::isAdminActionHasPermission('edit_block', 'process')&& SessionHolder::get('page/status')=='edit'&&!in_array($position, $limited_pos)){
+					$drag_to_move= 'title="'.__('No permission to Move').'"';
+				}
+				if(!in_array($position, $limited_pos) && SessionHolder::get('page/status')=='edit'&&ACL::isAdminActionHasPermission('edit_block', 'process')){
+					$drag_to_move = 'title="'.__('Drag to Move').'"';
+				}
+				//ËøôÈáåÂØπlogoÂíåbannerËøõË°åÈÄâÊã©ÊÄßÂ§ÑÁêÜ----------------------------------------------------------
+				if (($block->module == 'mod_media') && ($block->s_pos == 'logo')&&$logo_dis['dis']==0) {
+					if ($logo_dis['dis']==0) {//logo
+						if (SessionHolder::get('page/status', 'view') == 'edit'&&!strpos($block->s_param,"www.sitestar.cn")) {
+							echo $str_content_edit;
+							echo "\n".'</div>'."\n";
+							continue;
+						}else{
+							echo "<div>";//ËøôÈáåÈò≤Ê≠¢divÊ†áÁ≠æÊ≤°ÊúâÈÖçÂØπÂØºËá¥È°µÈù¢Èîô‰π±
+						}
+					}
+				}elseif(($block->module == 'mod_media') && (($block->s_pos == 'banner') && ($block->s_pos != 'logo'))&&$banner_dis['dis']==0){//banner
+					if ($banner_dis['dis']==0) {
+						if (SessionHolder::get('page/status', 'view') == 'edit'&&!strpos($block->s_param,"www.sitestar.cn")) {
+						echo $str_content_edit;
+
+						}
+					}
+				}else{
+		       		echo '<div id="MODBLK_'.$block->id.'" class="mod_block '.$extra_css.$block->alias.'_block"'.$drag_to_move.'>'."\n";
+		       		if (SessionHolder::get('page/status', 'view') == 'edit'&&!strpos($block->s_param,"www.sitestar.cn")) {
+		       			
+		       			echo '<div id="tb_'.$block->alias.'" class="mod_toolbar" style="display:none;">'."\n".$str_content_edit.$str_property_remove.$str_remove_block.$str_content_edit_show.'</div>';
+		        	}
+				}
+	        	if (intval($block->show_title) == 1) {
+	        		echo '<h3 class="blk_t">'.$_block_title.'</h3>'."\n";
+	        	}
+	        	if (strlen(trim($block->s_param)) > 0) {
+	        		self::render($block->module, $block->action,array_merge(unserialize($block->s_param), array('block_title' => $_block_title,'block_pos'=> $block->s_pos)),$block->id);
+	        	} else {
+	        		self::render($block->module, $block->action, array('block_title' => $_block_title),$block->id);
+	        	}
+	        	if (SessionHolder::get('page/status', 'view') == 'edit' && !in_array($position, $limited_pos)) {
+	        		echo "\n".'<div style="margin:0px;padding:0px;border:0px;clear:both;"></div>'."\n";
+	        	}
+	        	if(($block->module == 'mod_media') && (($block->s_pos == 'banner') && ($block->s_pos != 'logo'))&&$banner_dis['dis']==0){
+	        		if (SessionHolder::get('page/status', 'view') == 'edit'&&!strpos($block->s_param,"www.sitestar.cn")) {
+	        			echo "\n".'</div>'."\n";
+	        		}
+	        	}else{
+	        		echo "\n".'</div>'."\n";
+				}
+	        }
+    	}
+         
+	    if (SessionHolder::get('page/status', 'view') == 'edit' && !in_array($position, $limited_pos)) {
+	        	echo '<div class="placeholder"></div>'."\n"	.'</div>'."\n";
+	    }
+    }
+
+    /**
+     * Load modules assigned to the position (Horizontal)
+     *
+     * @access public
+     * @static
+     * @param string $position The position string
+     */
+    public static function loadModules_H($position) {
+        $pos_blocks =& self::_loadModules($position);
+
+echo <<<H_TABLE
+    <table id="tbl_{$position}_modules" class="tbl_module_wrapper" cellspacing="0">
+        <tbody><tr>
+
+H_TABLE;
+        if (sizeof($pos_blocks) > 0) {
+            foreach ($pos_blocks as $block) {
+                echo '<td>'."\n".'<div id="mod_'.$block->alias.'" class="mod_block '.$block->alias.'_block">'."\n";
+                if (intval($block->show_title) == 1) {
+                    echo '<h3>'.__($block->title).'</h3>'."\n";
+                }
+                if (strlen(trim($block->s_param)) > 0) {
+                    self::render($block->module, $block->action,
+                        unserialize($block->s_param));
+                } else {
+                    self::render($block->module, $block->action, array());
+                }
+                echo "\n".'</div>'."\n".'</td>'."\n";
+            }
+        }
+echo <<<H_TABLE
+
+        </tr></tbody>
+    </table>
+H_TABLE;
+    }
+
+	 /**
+     * find all s_pos diff
+     *
+     * @access public
+     * @static
+     * @param string $position The position string
+	 * @zhangjc@2010-6-9
+     */
+    private static function findPos($positions) {
+		$ret_arr = array();
+		foreach($positions as $val){
+			if(!in_array($val->s_pos,$ret_arr)){
+			array_push($ret_arr,$val->s_pos);
+			}
+		}
+		$poss = TplInfo::$positions;
+		$_ret_arr = array_diff($ret_arr, $poss);
+		if(sizeof($_ret_arr)>0){
+			$ret_str="";
+			foreach($_ret_arr as $val){
+				$ret_str = $ret_str."','".$val;
+			}
+			return "right".$ret_str;
+		} else {
+			return 'right';
+		}
+    }
+    
+    public static function getEditContents()
+    {
+    	//ÊúâÂÜÖÂÆπÁºñËæëÊ®°Âùó
+    	$edit_contents = array(
+			'mod_auth' => array('module' => 'mod_user','action' => 'admin_list'),
+			//'mod_lang' => array('module' => '','action' => ''),
+			'mod_message' => array('module' => 'mod_message','action' => 'admin_list'),//
+			'mod_friendlink' => array('module' => 'mod_friendlink','action' => 'admin_list'),
+			'mod_qq' => array('module' => 'mod_qq','action' => 'admin_list'),
+			'mod_download' => array('module' => 'mod_download','action' => 'admin_list'),
+			'mod_category_a' => array('module' => 'mod_category_a','action' => 'admin_list'),
+			'mod_article' => array('module' => 'mod_article','action' => 'admin_list'),
+			'mod_category_p' => array('module' => 'mod_category_p','action' => 'admin_list'),
+			'mod_product' => array('module' => 'mod_product','action' => 'admin_list'),
+			'company_intro' => array('module' => '','action' => ''),
+			'mod_bulletin' => array('module' => 'mod_bulletin','action' => 'admin_list'),
+    		'mod_media' => array('module' => '','action' => ''),//ÂºÄÊîælogoÂíåbanner
+    		'mod_static' => array('module' => 'mod_media','action' => 'admin_foot'),//footer
+    		'mod_menu' => array('module' => 'mod_menu_item','action' => 'admin_list'),//nav
+		);
+		return $edit_contents;
+    }
+}
+?>

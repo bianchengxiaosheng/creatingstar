@@ -1,5 +1,7 @@
 <?php
 if (!defined('IN_CONTEXT')) die('access violation error!');
+$act =& ParamHolder::get('_m');
+echo $act."tfuftfiuytiuytiuytiuyityuityuyutyfi";
 ?>
 
 <!-- <div class="flash_image">
@@ -24,8 +26,8 @@ if (!defined('IN_CONTEXT')) die('access violation error!');
 				<div class="top-nav">
 					<span class="menu"><img src="images/menu.png" alt=""></span>
 					<ul class="nav1">
-						<li class="hvr-sweep-to-bottom active"><a href="index.php">Home<i><img src="images/nav-but1.png" alt=""/></i></a></li>
-						<li class="hvr-sweep-to-bottom "><a href="about.php">About<i><img src="images/nav-but2.png" alt=""/></i></a></li>
+						<li class="hvr-sweep-to-bottom <?php if($act==""){echo "active";} ?>"><a href="index.php">Home<i><img src="images/nav-but1.png" alt=""/></i></a></li>
+						<li class="hvr-sweep-to-bottom <?php if($act=="mod_article"){echo "active";} ?>"><a href="index.php?_m=mod_article&_a=article_content&article_id=78">About<i><img src="images/nav-but2.png" alt=""/></i></a></li>
 						<li class="hvr-sweep-to-bottom "><a href="services.php">Services<i><img src="images/nav-but3.png" alt=""/></i></a></li>
 						<li class="hvr-sweep-to-bottom "><a href="blog.php">Blog<i><img src="images/nav-but4.png" alt=""/></i></a></li>
 						<li class="hvr-sweep-to-bottom "><a href="mail.php">Mail Us<i><img src="images/nav-but5.png" alt=""/></i></a></li>

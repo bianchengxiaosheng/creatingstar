@@ -38,7 +38,9 @@ include_once('view/common/header.php');
 
 <!-- 导航隐藏 -->
   <div id="nav"  hidden>
-	<?php if (Content::countModules('nav') > 0 || Toolkit::editMode()) Content::loadModules('nav'); ?>
+	<?php if (Content::countModules('nav') > 0 || Toolkit::editMode()) 
+
+	Content::loadModules('nav'); ?>
 	</div>  
 
 	<div id="main_con">
@@ -47,7 +49,8 @@ include_once('view/common/header.php');
 		if($_flat_module_class_name == 'frontpage'){
 		?>
 		<div id="left">
-		<?php if (Content::countModules('left') > 0 || Toolkit::editMode()) Content::loadModules('left'); ?>
+		<?php if (Content::countModules('left') > 0 || Toolkit::editMode()) 
+		Content::loadModules('left'); ?>
 		</div>
  		<?php } 
 		//--------------首页样式【end】----------------------	

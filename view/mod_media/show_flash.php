@@ -1,7 +1,7 @@
 <?php
 if (!defined('IN_CONTEXT')) die('access violation error!');
 $act =& ParamHolder::get('_m');
-echo $act."tfuftfiuytiuytiuytiuyityuityuyutyfi";
+$act1 =& ParamHolder::get('sc_id');
 ?>
 
 <!-- <div class="flash_image">
@@ -27,10 +27,10 @@ echo $act."tfuftfiuytiuytiuytiuyityuityuyutyfi";
 					<span class="menu"><img src="images/menu.png" alt=""></span>
 					<ul class="nav1">
 						<li class="hvr-sweep-to-bottom <?php if($act==""){echo "active";} ?>"><a href="index.php">Home<i><img src="images/nav-but1.png" alt=""/></i></a></li>
-						<li class="hvr-sweep-to-bottom <?php if($act=="mod_article"){echo "active";} ?>"><a href="index.php?_m=mod_article&_a=article_content&article_id=78">About<i><img src="images/nav-but2.png" alt=""/></i></a></li>
-						<li class="hvr-sweep-to-bottom "><a href="services.php">Services<i><img src="images/nav-but3.png" alt=""/></i></a></li>
-						<li class="hvr-sweep-to-bottom "><a href="blog.php">Blog<i><img src="images/nav-but4.png" alt=""/></i></a></li>
-						<li class="hvr-sweep-to-bottom "><a href="mail.php">Mail Us<i><img src="images/nav-but5.png" alt=""/></i></a></li>
+						<li class="hvr-sweep-to-bottom <?php if($act1=="2"){echo "active";} ?>"><a href="index.php?_m=mod_static&_a=view&sc_id=2">About<i><img src="images/nav-but2.png" alt=""/></i></a></li>
+						<li class="hvr-sweep-to-bottom <?php if($act=="mod_product"){echo "active";} ?>"><a href="index.php?_m=mod_product&_a=prdlist">Services<i><img src="images/nav-but3.png" alt=""/></i></a></li>
+						<li class="hvr-sweep-to-bottom <?php if($act=="mod_article"){echo "active";} ?>"><a href="index.php?_m=mod_article&_a=fullist">News<i><img src="images/nav-but4.png" alt=""/></i></a></li>
+						<li class="hvr-sweep-to-bottom <?php if($act1=="1"){echo "active";} ?>"><a href="index.php?_m=mod_static&_a=view&sc_id=1">Mail Us<i><img src="images/nav-but5.png" alt=""/></i></a></li>
 						<div class="clearfix"> </div>
 					</ul>
 					<!-- script-for-menu -->

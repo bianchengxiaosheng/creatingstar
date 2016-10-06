@@ -5,23 +5,34 @@ if (!function_exists('showCategoryMenuP')) {
     function showCategoryMenuP(&$category_tree) {
         if(empty($category_tree)) $category_tree = array();
         foreach ($category_tree as $category) {
-    ?>
+?>
     <li>
     <?php
             if (sizeof($category->slaves['ProductCategory']) > 0) {
     ?>
+ 
+                
+           
+
     <a href="<?php echo Html::uriquery('mod_product', 'prdlist', array('cap_id' => $category->id)); ?>">
-    <?php echo $category->name; ?></a>
+<!--     <?php echo $category->name; ?>
+ -->    </a>
+    
+
     <ul>
 	    <?php showCategoryMenuP($category->slaves['ProductCategory']); ?>
     </ul>
     <?php
-            } else {
+            
+
+    } else {
     ?>
     <a href="<?php echo Html::uriquery('mod_product', 'prdlist', array('cap_id' => $category->id)); ?>">
-    <?php echo $category->name; ?></a>
+<!--     <?php echo $category->name; ?>
+ -->     </a>
     <?php
-            }
+            
+    }
     ?>
     </li>
     <?php
@@ -54,6 +65,48 @@ $id_seed = Toolkit::randomStr();
 	<div id="pro_type_<?php echo $id_seed; ?>">
 		<ul class="<?php if (trim(ParamHolder::get('product_category_type',''))=="click") { ?>mktree<?php } ?>" id="tree1">
 			<?php showCategoryMenuP($categories); ?>
+<div class="specialty-grids-top">
+
+                    <div class="col-md-6 service-box wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                        <figure class="icon">
+                            <img src="images/1.png" alt="" />
+                        </figure>
+                        <h5>Proin eget ipsum ultrices</h5>
+                        <p>Sed ut perspiciis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    </div>
+
+                    <div class="col-md-6 service-box wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                        <figure class="icon">
+                            <img src="images/2.png" alt="" />
+                        </figure>
+                        <h5>Proin eget ipsum ultrices</h5>
+                        <p>Sed ut perspiciis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    </div>
+
+                    <div class="clearfix"> </div>
+                </div>
+
+                <div class="specialty-grids-top">
+                    <div class="col-md-6 service-box wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                        <figure class="icon">
+                            <img src="images/3.png" alt="" />
+                        </figure>
+                        <h5>Proin eget ipsum ultrices</h5>
+                        <p>Sed ut perspiciis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    </div>
+
+                    <div class="col-md-6 service-box wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+                        <figure class="icon">
+                            <img src="images/4.png" alt="" />
+                        </figure>
+                        <h5>Proin eget ipsum ultrices</h5>
+                        <p>Sed ut perspiciis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    </div>
+
+                    <div class="clearfix"> </div>
+                </div>
+
+
 			<div class="blankbar1"></div>
 		</ul>		
 	</div>

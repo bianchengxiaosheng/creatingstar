@@ -308,7 +308,7 @@ input.add_to_cart_b_view{background:none;margin:0;padding:0;border:0;font-size:1
 .custom_con td{text-align:justify; text-justify:inter-ideograph;}
 
 /*--- 底部 ---*/
-#footer{clear:both;text-align:center;line-height:1.5em; margin:10px auto 0 auto; color:#555454; padding: 10px 0; background:url(../images/footer.gif) repeat-x #dddddd; }
+#footer{clear:both;text-align:left;line-height:1.5em; margin:10px auto 0 auto; color:#555454; padding: 10px 0; background:url(../images/footer.gif) repeat-x #dddddd; }
 #footer a,#footer a:visited{color:#555454;}
 #footer .custom_con{ border:none; padding:0; margin:0; text-align:center;}
 

@@ -8,10 +8,16 @@ if (sizeof($articles) > 0) {
 	<ul class="titlelist">
 	<?php
 		foreach ($articles as $article) {
-			$article_html = '<li><a href="'.Html::uriquery('mod_article', 'article_content', array('article_id' => $article->id)).' "title="'.$article->title.'"> '
-			.Toolkit::substr_MB($article->title, 0, 15).((Toolkit::strlen_MB($article->title) > 15)?'...':'').'</a>';
-			$article_html .= '</li>'."\n";
-			echo $article_html;
+			$article_html = '';
+			$article_html .= "\n".'<div class="col-md-3 news-grid wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+					<a href="'.Html::uriquery('mod_article', 'article_content', array('article_id' => $article->id)).' "title="'.$article->title.'"> '
+        .Toolkit::substr_MB($article->title, 0, 15).((Toolkit::strlen_MB($article->title) > 15)?'...':'').'</a>
+					<img src="images/img1.jpg" alt="" />
+					<div class="news-info">
+						<p>'.$article->title.'</p>
+					</div>
+				</div>';
+		    echo $article_html;
 		}
 	?>
 	</ul>

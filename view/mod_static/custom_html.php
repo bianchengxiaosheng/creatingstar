@@ -9,11 +9,11 @@ echo '<div class="com_con_sq" id="com_con_sq">'.$html.'</div><div class="list_bo
 }else{
 echo '<div class="com_con1">'.'<div class="col-md-6 footer-left  wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="blog.html">Blog</a></li>
-					<li><a href="mail.html">Mail Us</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="index.php?_m=mod_static&_a=view&sc_id=2">About</a></li>
+					<li><a href="index.php?_m=mod_product&_a=prdlist&cap_id=34">Services</a></li>
+					<li><a href="index.php?_m=mod_article&_a=fullist">News</a></li>
+					<li><a href="index.php?_m=mod_static&_a=view&sc_id=1">Mail Us</a></li>
 				</ul>
 				<form>
 					<input type="text" placeholder="Email" required="">

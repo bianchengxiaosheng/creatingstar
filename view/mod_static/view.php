@@ -30,7 +30,7 @@ if (!defined('IN_CONTEXT')) die('access violation error!');
 	<!-- 编辑时动态触发 【end】-->
 
 <?php
-echo '<h3 class="blk_t">'.$page_cat.'</h3>';
+//echo '<h3 class="blk_t">'.$page_cat.'</h3>';
 ?>
 
 

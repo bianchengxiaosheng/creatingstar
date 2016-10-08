@@ -28,11 +28,8 @@ if(!empty($caa_id)) {
 
 <div class="art_list" <?php if(SessionHolder::get('page/status', 'view') == 'edit') echo "style='position:relative;' onmouseover='article_list_edit();' onmouseout='article_list_cancel();'";?>>
 	<!-- 编辑时动态触发 【start】-->
-	<div class="mod_toolbar" id="tb_mb_article_list1" style="display: none; height: 28px; position: absolute; right: 2px; background: none repeat scroll 0% 0% rgb(247, 182, 75); width: 70px;">
-		<a onclick="popup_window('<?php echo $str_caa;?>','<?php echo $str_title;?>&nbsp;&nbsp;<?php echo _e('Edit Content');?>');return false;" title="<?php echo _e('Edit Content');?>" href="#"><img border="0" alt="<?php echo _e('Edit Content');?>" src="images/edit_content.gif">&nbsp;<?php echo _e('Edit Content');?></a>
-	</div>
+	
 	<!-- 编辑时动态触发 【end】-->
-	<div class="art_list_title"><?php echo '类别'; ?></div>
 	<div class="art_list_con">
 		<ul>
 		<?php

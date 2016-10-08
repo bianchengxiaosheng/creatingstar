@@ -49,8 +49,7 @@ JS;
 	</div>
 	<!-- 编辑时动态触发 【end】-->
 
-	<div class="art_list_title"><?php if(isset($category->name)){echo $category->name;}else{ echo __("Product Center");} ?></div>
-	<div class="art_list_search"><?php include_once(dirname(__FILE__).'/_search.php'); ?></div>
+	<div class="art_list_search"><?php //include_once(dirname(__FILE__).'/_search.php'); ?></div>
 	<div class="prod_list_con">
         <?php
         if (sizeof($products) > 0) {

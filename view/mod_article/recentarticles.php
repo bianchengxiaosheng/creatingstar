@@ -7,17 +7,23 @@ if (sizeof($articles) > 0) {
 	<div class="list_con">
 	<ul class="titlelist">
 	<?php
+	$count =0;
 		foreach ($articles as $article) {
 			$article_html = '';
 			$article_html .= "\n".'<div class="col-md-3 news-grid wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
 					<a href="'.Html::uriquery('mod_article', 'article_content', array('article_id' => $article->id)).' "title="'.$article->title.'"> '
-        .Toolkit::substr_MB($article->title, 0, 15).((Toolkit::strlen_MB($article->title) > 15)?'...':'').'</a>
+        .Toolkit::substr_MB($article->title, 0, 5).((Toolkit::strlen_MB($article->title) > 5)?'...':'').'</a>
 					<img src="images/img1.jpg" alt="" />
 					<div class="news-info">
-						<p>'.$article->title.'</p>
+						<p>'.Toolkit::substr_MB($article->title, 0, 10).((Toolkit::strlen_MB($article->title) > 10)?'...':'').'</p>
 					</div>
 				</div>';
+
 		    echo $article_html;
+		    $count++;
+		    if ($count==4) {
+		    	break;
+		    }
 		}
 	?>
 	</ul>

@@ -43,8 +43,7 @@ if(!empty($caa_id)) {
 		<?php }?>
 	</div>
 	<!-- 编辑时动态触发 【end】-->
-	<div class="art_list_title"><?php if(isset($category->name)){echo $category->name;} ?></div>
-	<div class="art_list_search"><?php include_once(dirname(__FILE__).'/_search.php'); ?></div>
+	<div class="art_list_search"><?php //include_once(dirname(__FILE__).'/_search.php'); ?></div>
 	<div class="art_list_con">
 		<ul>
 		<?php

@@ -53,7 +53,7 @@ ol,ul,li{list-style-type:none;}
 #nav_bot{width:100%;height:13px; background:url(../images/menu_bottom.gif) repeat-x;}
 
 /*--- banner ---*/
-#banner{ width:100%; overflow:hidden; margin:10px auto 0px auto ; clear:both; text-align:left;}
+#banner{ width:100%; overflow:hidden; margin:0px auto 0px auto ; clear:both; text-align:left;}
 
 /*--- 主体页面 ---*/
 #main_con{width:100%; margin-bottom:25px; margin:0 auto;}
@@ -64,8 +64,8 @@ ol,ul,li{list-style-type:none;}
 #left .art_list_con, #left .prod_list_con,#left2 .art_list_con, #left2 .prod_list_con{margin-bottom:9px; padding:8px; zoom:1; overflow:auto;scrollbar-face-color: #E6E6E6;
 scrollbar-highlight-color: #ffffff;scrollbar-shadow-color: #ffffff;scrollbar-3dlight-color: #B0B0B0;scrollbar-arrow-color: #666666;scrollbar-track-color: #f5f5f5;scrollbar-color: #B0B0B0;scrollbar-darkshadow-color: #9C9C9C; border-top:none;}
 #left .art_list_con ul li,#left2 .art_list_con ul li{border-bottom:1px dashed #CCC; height:30px; line-height:30px;}
-#left .art_list_con ul li .l_title,#left2 .art_list_con ul li .l_title{float:left; width:460px; height:30px; overflow:hidden; background:url(../images/news_arrow.gif) no-repeat left; background-position:0px 10px; padding-left:15px; }
-#left .art_list_con ul li .n_time,#left2 .art_list_con ul li .n_time{float:right; color: #7E7E7E; padding-right:15px;}
+#left .art_list_con ul li .l_title,#left2 .art_list_con ul li .l_title{float:left; width:54%; height:30px; overflow:hidden; background:url(../images/news_arrow.gif) no-repeat left; background-position:0px 10px; padding-left:15px; }
+#left .art_list_con ul li .n_time,#left2 .art_list_con ul li .n_time{float:right; color: #7E7E7E; padding-right:10px;}
 #left .art_list_title{ display:none; }
 #left2 .art_list{ margin-bottom:10px;}
 #left2 .art_list_time{ float:right; margin-right:10px;}
@@ -1084,7 +1084,7 @@ color: #333333;
 }
 .news-info p {
   color: #333333;
-  font-size: 14px;
+  font-size: 12px;
   margin: 0;
   line-height: 1.8em;
   font-weight: 400;
@@ -3749,7 +3749,7 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+  margin: 0 0 0px;
 }
 .lead {
   margin-bottom: 20px;

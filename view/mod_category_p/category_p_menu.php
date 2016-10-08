@@ -1,4 +1,5 @@
 <?php
+$count =0;
 if (!defined('IN_CONTEXT')) die('access violation error!');
 
 if (!function_exists('showCategoryMenuP')) {
@@ -8,19 +9,19 @@ if (!function_exists('showCategoryMenuP')) {
 ?>
     
     <?php
-            if (sizeof($category->slaves['ProductCategory']) > 0) {
+            if ($count%2== 0) {
     ?>
  
    <a href="<?php echo Html::uriquery('mod_product', 'prdlist', array('cap_id' => $category->id)); ?>">
-      <div class="col-md-6 service-box wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+<div class="specialty-grids-top">
+                    <div class="col-md-6 service-box wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
                         <figure class="icon">
                             <img src="images/1.png" alt="" />
                         </figure>
-                        <h5><?php echo $category->name; ?></h5>
-                        <p><?php echo $category->alias; ?> </p>
+                        <h5><?php  echo $category->name;?></h5>
+                        <p>Sed ut perspiciis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                     </div>
-
-
+                </div> 
    </a>
     
 
@@ -29,25 +30,33 @@ if (!function_exists('showCategoryMenuP')) {
     </ul>
     <?php
             
+        $count++;
 
     } else {
+                $count++;
+
     ?>
     <a href="<?php echo Html::uriquery('mod_product', 'prdlist', array('cap_id' => $category->id)); ?>">
-       <div class="col-md-6 service-box wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+       <div class="specialty-grids-top">
+                    
+                    <div class="col-md-6 service-box wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
                         <figure class="icon">
-                            <img src="images/1.png" alt="" />
+                            <img src="images/2.png" alt="" />
                         </figure>
-                        <h5><?php echo $category->name; ?></h5>
-                        <p><?php echo $category->alias; ?> </p>
-
-                    </div>    
+                        <h5><?php  echo $category->name;?></h5>
+                        <p>Sed ut perspiciis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div> 
     </a>
 
+    
     <?php
-            
+         if ($count==4) {
+            break;
+            }   
     }
     ?>
-    
     <?php
         }
     }

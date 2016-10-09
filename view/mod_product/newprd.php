@@ -24,9 +24,21 @@ if ($n_prd > 0){
 			$_product->loadRelatedObjects(REL_PARENT, array('ProductCategory'));
 		?>
 			<td>
-            <div class="newprod_list">
-				<div class="newprod_pic"><a href="<?php echo Html::uriquery('mod_product', 'view', array('p_id' => $products[$i]->id)); ?>" title="<?php echo $products[$i]->name;?>"><img name="picautozoom" border="0" alt="<?php echo $products[$i]->name;?>" src="<?php echo $products[$i]->feature_smallimg;?>" class="prodthumb" /></a></div>
-                <div class="newprod_name"><a href="<?php echo Html::uriquery('mod_product', 'view', array('p_id' => $products[$i]->id)); ?>"><?php echo $products[$i]->name;?></a></div>
+
+            <div class="col-md-6 service-box wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+					<a href="<?php echo Html::uriquery('mod_product', 'view', array('p_id' => $products[$i]->id)); ?>" title="<?php echo $products[$i]->name;?>">
+						<figure class="icon">
+						<img  src="images/1.png" />
+						</figure>
+					</a>
+                
+
+                	<a href="<?php echo Html::uriquery('mod_product', 'view', array('p_id' => $products[$i]->id)); ?>">
+                		<h5><?php echo $products[$i]->name;?></h5>
+                		<p>Sed ut perspiciis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                	</a>
+</div>
+
                 <?php if( (EZSITE_LEVEL=='2') && $show_price){?><div class="newprod_price"  <?php if( (EZSITE_LEVEL=='2') && $show_price2){?>style="text-decoration :line-through"<?php }?>><?php echo CURRENCY_SIGN; ?><?php echo $products[$i]->price;?></div><?php }?>
 				  <?php if( (EZSITE_LEVEL=='2') && $show_price2){?><div class="newprod_price" ><?php _e('Discount：'); ?><?php echo CURRENCY_SIGN; ?><?php echo $products[$i]->discount_price;?></div><?php }?>
 				<?php if($show_cate){?><div class="newprod_intr"><?php _e('Category'); ?>: 
@@ -40,7 +52,11 @@ if ($n_prd > 0){
                             }
                            ?>
                            
-                    </div><?php }?>
+                    <?php }?>
+
+
+
+
                            
                     </div>
                 <div class="blankbar1"></div>
@@ -67,6 +83,13 @@ if ($n_prd > 0){
 }
 ?>
 			</div>
+			<div class="list_more"><a href="<?php
+		
+		echo Html::uriquery('mod_category_p', 'category_p_menu');
+	
+		?>"><img src="<?php echo P_TPL_WEB; ?>/images/more_37.jpg" width="32" height="9" border="0" /></a></div>
+	
+	</div>
 				<div class="list_bot"></div>
 			</div>
 			<div class="blankbar"></div>

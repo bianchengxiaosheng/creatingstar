@@ -11,7 +11,7 @@ echo '<div class="com_con1">'.'<div class="col-md-6 footer-left  wow fadeInLeft 
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="index.php?_m=mod_static&_a=view&sc_id=2">About</a></li>
-					<li><a href="index.php?_m=mod_product&_a=prdlist&cap_id=34">Services</a></li>
+					<li><a href="index.php?_m=mod_category_p&_a=category_p_menu">Services</a></li>
 					<li><a href="index.php?_m=mod_article&_a=fullist">News</a></li>
 					<li><a href="index.php?_m=mod_static&_a=view&sc_id=1">Mail Us</a></li>
 				</ul>

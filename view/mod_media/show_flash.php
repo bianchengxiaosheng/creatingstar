@@ -30,7 +30,7 @@ $act1 =& ParamHolder::get('sc_id');
 						<li class="hvr-sweep-to-bottom <?php if($act1=="2"){echo "active";} ?>"><a href="index.php?_m=mod_static&_a=view&sc_id=2">About<i><img src="images/nav-but2.png" alt=""/></i></a></li>
 						<li class="hvr-sweep-to-bottom <?php if($act=="mod_category_p"){echo "active";} ?>"><a href="index.php?_m=mod_category_p&_a=category_p_menu">Services<i><img src="images/nav-but3.png" alt=""/></i></a></li>
 						<li class="hvr-sweep-to-bottom <?php if($act=="mod_article"){echo "active";} ?>"><a href="index.php?_m=mod_article&_a=fullist">News<i><img src="images/nav-but4.png" alt=""/></i></a></li>
-						<li class="hvr-sweep-to-bottom <?php if($act1=="1"){echo "active";} ?>"><a href="index.php?_m=mod_static&_a=view&sc_id=1">Mail Us<i><img src="images/nav-but5.png" alt=""/></i></a></li>
+						<li class="hvr-sweep-to-bottom <?php if($act1=="1"){echo "active";} ?>"><a href="tel:18910403461">Mail Us<i><img src="images/nav-but5.png" alt=""/></i></a></li>
 						<div class="clearfix"> </div>
 					</ul>
 					<!-- script-for-menu -->

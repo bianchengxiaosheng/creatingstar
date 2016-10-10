@@ -35,7 +35,7 @@ if ($n_prd > 0){
 
                 	<a href="<?php echo Html::uriquery('mod_product', 'view', array('p_id' => $products[$i]->id)); ?>">
                 		<h5><?php echo $products[$i]->name;?></h5>
-                		<p>Sed ut perspiciis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                		<p><?php echo Toolkit::substr_MB($products[$i]->introduction, 0, 20).((Toolkit::strlen_MB($products[$i]->introduction) > 20)?'...':'');?></p>
                 	</a>
 </div>
 

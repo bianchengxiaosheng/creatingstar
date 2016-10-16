@@ -21,7 +21,7 @@ $act1 =& ParamHolder::get('sc_id');
 		<div class="container">
 			<div class="header">
 				<div class="head-logo">
-					<a href="index.html"><img src="images/logo2.png" alt="" /></a>
+					<a href="index.php"><img src="images/logo2.png" alt="" /></a>
 				</div>
 				<div class="top-nav">
 					<span class="menu"><img src="images/menu.png" alt=""></span>
@@ -46,6 +46,56 @@ $act1 =& ParamHolder::get('sc_id');
 				<div class="clearfix"> </div>
 			</div>
 		</div>
+
+	<div class="container">
+				<script src="script/responsiveslides.min.js"></script>
+					 <script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						  // Slideshow 4
+						  $("#slider3").responsiveSlides({
+							auto: true,
+							pager: true,
+							nav: false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+							  $('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+							  $('.events').append("<li>after event fired.</li>");
+							}
+						  });
+					
+						});
+					  </script>
+			<div  id="top" class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="banner-info">
+								<h2>Where you <span> always </span> find great truck journey</h2>  
+								<div class="line"> </div>
+								<p>Ut sodales erat tortor, eget rhoncus nulla rutrum sit amet. Aliquam sit amet lorem dui. Nulla sagittis dolor id mi tincidunt varius. Donec quis suscipit tortor vel pellentesque libero</p>
+						</div>
+					</li>
+					<li>
+						<div class="banner-info">
+								<h2>Make your <span> journey </span> truck in United Kingdom</h2>
+								<div class="line"> </div>
+								<p>Eget rhoncus nulla rutrum sit amet. Ut sodales erat tortor Aliquam sit amet lorem dui. Donec quis suscipit tortor vel pellentesque libero Nulla sagittis dolor id mi tincidunt varius</p>
+						</div>
+					</li>
+					<li>
+						<div class="banner-info">
+								<h2>Provider <span> Volvo Trucks </span> truck in Ukraine</h2>
+								<div class="line"> </div>
+								<p>Eget rhoncus nulla rutrum sit amet. Ut sodales erat tortor Aliquam sit amet lorem dui. Donec quis suscipit tortor vel pellentesque libero Nulla sagittis dolor id mi tincidunt varius</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 <?php
 if ($showtitle) {
 	echo '<div class="list_bot"></div><div class="blankbar"></div>';
